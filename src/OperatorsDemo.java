@@ -5,16 +5,20 @@ public class OperatorsDemo {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Podaj liczbe: ");
-        int liczba = scanner.nextInt();
+        int number = scanner.nextInt();
+
 
         boolean positive = liczba > 0;
         boolean divisible= liczba % 2 == 0;
+
         int  f = 12;
         int a = ++f;
         int b = --f;
 
         System.out.println(a);
         System.out.println(b);
+
+
 
     if (divisible) {
         System.out.println("jest podzielna");
@@ -28,6 +32,7 @@ public class OperatorsDemo {
     } else {
         System.out.println("nie jest dodatnia");
     }
+
 
     }
 }

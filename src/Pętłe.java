@@ -18,11 +18,11 @@ public class Pętłe {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj liczbe: ");
-        int liczba = scanner.nextInt();
+        int number = scanner.nextInt();
 
         do {
-            System.out.println(liczba);
-            liczba--;
-        } while (liczba > 0);
+            System.out.println(number);
+            number--;
+        } while (number > 0);
     }
 }

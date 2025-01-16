@@ -24,6 +24,8 @@ public class InstrukcjeWarunkowe {
         }
 
         switch (grade){
+
+
         case 1:
             System.out.println("Ocena jest niedostateczna");
             break;
@@ -43,6 +45,7 @@ public class InstrukcjeWarunkowe {
             System.out.println("Ocena jest celująca");
             break;
     }
+
         if (age <= 12){
             System.out.println("Jesteś dzieckiem");
         } else if (age <= 17) {
@@ -52,3 +55,5 @@ public class InstrukcjeWarunkowe {
         }
     }
 }
+
+
