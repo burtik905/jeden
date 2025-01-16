@@ -24,25 +24,28 @@ public class InstrukcjeWarunkowe {
         }
 
         switch (grade){
-            case 1:
-                System.out.println("Ocena jest niedostateczna");
-                break;
-            case 2:
-                System.out.println("Ocena jest dopuszczająca");
-                break;
-            case 3:
-                System.out.println("Ocena jest dostateczna");
-                break;
-            case 4:
-                System.out.println("Ocena jest dobra");
-                break;
-            case 5:
-                System.out.println("Ocena jest bardzo dobra");
-                break;
-            case 6:
-                System.out.println("Ocena jest celująca");
-                break;
-        }
+
+
+        case 1:
+            System.out.println("Ocena jest niedostateczna");
+            break;
+        case 2:
+            System.out.println("Ocena jest dopuszczająca");
+            break;
+        case 3:
+            System.out.println("Ocena jest dostateczna");
+            break;
+        case 4:
+            System.out.println("Ocena jest dobra");
+            break;
+        case 5:
+            System.out.println("Ocena jest bardzo dobra");
+            break;
+        case 6:
+            System.out.println("Ocena jest celująca");
+            break;
+    }
+
         if (age <= 12){
             System.out.println("Jesteś dzieckiem");
         } else if (age <= 17) {
