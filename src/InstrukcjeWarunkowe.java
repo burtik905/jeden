@@ -6,12 +6,12 @@ public class InstrukcjeWarunkowe {
 
         System.out.println("Podaj liczbe: ");
         System.out.println("Podaj wiek: ");
-        int ocena = scanner.nextInt();
-        int wiek = scanner.nextInt();
+        int grade = scanner.nextInt();
+        int age = scanner.nextInt();
 
-        boolean dodatnia = ocena > 0;
-        boolean ujemna = ocena < 0;
-        boolean rownazero = ocena == 0;
+        boolean dodatnia = grade > 0;
+        boolean ujemna = grade < 0;
+        boolean rownazero = grade == 0;
 
         if (dodatnia) {
             System.out.println("Liczba jest dodatnia");
@@ -23,7 +23,7 @@ public class InstrukcjeWarunkowe {
 
         }
 
-        switch (ocena){
+        switch (grade){
         case 1:
             System.out.println("Ocena jest niedostateczna");
             break;
@@ -43,11 +43,11 @@ public class InstrukcjeWarunkowe {
             System.out.println("Ocena jest celująca");
             break;
     }
-        if (wiek <= 12){
+        if (age <= 12){
             System.out.println("Jesteś dzieckiem");
-        } else if (wiek <= 17) {
+        } else if (age <= 17) {
             System.out.println("Jesteś nastolatkiem");
-        } else if (wiek <= 64) {
+        } else if (age <= 64) {
             System.out.println("Jesteś Dorosły");
         }
     }
