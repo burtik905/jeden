@@ -9,18 +9,22 @@ public class Strings {
 
         System.out.println("Podaj drugie słowo: ");
         String wordtwo = scanner.nextLine();
-        String together = wordone + wordtwo;
+        String together = wordone + " " + wordtwo;
 
         System.out.println(together);
 
-        String literal = "jeden";
-        String newstring = new String("jeden");
+        System.out.println("Podaj pierwsze słowo do porównania: ");
+        String literal = scanner.nextLine();
 
-        if (literal == newstring) {
-            System.out.println("słowa są takie same");
+        System.out.println("Podaj drugie słowo do porównania: ");
+        String newstring = new String(scanner.nextLine());
+
+        if (literal.equals(newstring)) {
+            System.out.println("Słowa są takie same");
         } else {
-            System.out.println("słowa nie są takie same");
+            System.out.println("Słowa nie są takie same");
         }
 
+        scanner.close();
     }
 }
