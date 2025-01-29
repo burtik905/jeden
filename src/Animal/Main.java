@@ -2,10 +2,14 @@ package Animal;
 
 public class Main {
     public static void main(String[] args) {
-        Animals genericAnimal = new Animals("Zwierze");
-        genericAnimal.makeSound();
+        Animals[] animals = {
+                new Animals("Zwierze"),
+                new Dog("Kot"),
+                new Cat("Pies")
+        };
 
-        Dog dog = new Dog("Ben");
-        dog.makeSound();
+        for (Animals animal : animals) {
+            animal.makeSound();
+        }
     }
 }
