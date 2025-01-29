@@ -1,6 +1,6 @@
 class Person {
-     String name;
-     int age;
+    String name;
+    int age;
 
 
     public Person(String name, int age) {
@@ -9,16 +9,16 @@ class Person {
     }
 
 
-     Person(String name) {
+    Person(String name) {
         this(name, 18);
     }
 
 
-     String getName() {
+    String getName() {
         return name;
     }
 
-     void setName(String name) {
+    void setName(String name) {
         this.name = name;
     }
 
@@ -26,11 +26,11 @@ class Person {
         return age;
     }
 
-     void setAge(int age) {
+    void setAge(int age) {
         this.age = age;
     }
 
-     void displayInfo() {
+    void displayInfo() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
     public static void main(String[] args) {
