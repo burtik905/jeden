@@ -5,7 +5,7 @@ public class Main {
         Animals[] animals = {
                 new Animals("Zwierze"),
                 new Dog("Kot"),
-                new Cat("Pies")
+
         };
 
         for (Animals animal : animals) {
