@@ -1,6 +1,6 @@
 package personsnew;
 
-class persontwo {
+public class persontwo {
     private String name;
     private int age;
 
@@ -30,6 +30,6 @@ class persontwo {
     }
 
     public void displayInfo() {
-        System.out.println("Name: " + name + ", Age: " + age);
+        System.out.println("Imię: " + name + ", Wiek: " + age);
     }
 }

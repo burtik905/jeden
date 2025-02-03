@@ -1,6 +1,6 @@
 package personsnew;
 
-class Employee extends persontwo {
+public class Employee extends persontwo {
     private double salary;
     private String position;
 
@@ -30,16 +30,5 @@ class Employee extends persontwo {
     public void displayInfo() {
         super.displayInfo();
         System.out.println("Position: " + position + ", Salary: " + salary);
-    }
-
-    public static void main(String[] args) {
-        persontwo person1 = new persontwo("Jan", 25);
-        person1.displayInfo();
-
-        persontwo person2 = new persontwo("Anna");
-        person2.displayInfo();
-
-        Employee employee1 = new Employee("Kamil", 30, 5000.0, "Developer");
-        employee1.displayInfo();
     }
 }
